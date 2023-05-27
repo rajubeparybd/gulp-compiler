@@ -1,0 +1,32 @@
+/**
+* Sass code here...
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #d3d3d3;
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+div {
+  width: 500px;
+  height: 300px;
+  color: #ffffff;
+  background: #3a144165;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "cascadia code", Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
+  text-transform: uppercase;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
